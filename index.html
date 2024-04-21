@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+
+<body style="background-image: url(./img/flat-lay-work-space-with-notebook-keyboard.jpg);">
+    <div class="container">
+        <div class="form_content">
+            <form>
+                <h2>Create Registration Form</h2>
+                <hr>
+                <div class="info">
+                    <label for="u_name">Name :</label><br>
+                    <input type="text" id="u_name" name="user_name" required>
+                </div>
+                <div class="info">
+                    <label for="email">Email :</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="info">
+                    <label for="pas">Password :</label><br>
+                    <input type="password" id="pas" name="password" required>
+                </div>
+                <div class="info">
+                    <label for="con_pas">Confirm Password :</label><br>
+                    <input type="password" id="con_pas" name="confirm_password" required>
+                </div>
+
+                <div class="agre">
+                    <input type="checkbox" id="agre">
+                    <label for="agre">I agre all statements in <a href="">Terms of service</a></label>
+                </div>
+                <div class="btn"><button type="submit">Register</button></div>
+
+                <div class="login">
+                    <p>Have already an account ? <a href=""><strong>Login here</strong></a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

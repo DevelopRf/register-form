@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+.container h2 {
+    color: #ffffff;
+    font-weight: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 16px;
+}
+
+.form_content .info input {
+    width: 100%;
+    padding: 12px 16px 12px 16px;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.form_content button:hover {
+    background-color: #6d6b6b;
+}
+
+.form_content button {
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    background-color: #4b4b4b;
+    color: #ffffff;
+    transition: all 0.8s;
+}
+
+.form_content {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    height: 100vh;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.form_content form {
+    padding: 20px 50px;
+    background-color: #ffffff0e;
+}
+
+.container .info {
+    margin-top: 16px;
+}
+
+.login {
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #949494;
+}
+
+input {
+    outline: none;
+}
+
+.agre {
+    margin: 20px 0 0;
+
+    column-gap: 5px;
+}
+
+.agre input {
+    vertical-align: sub;
+    margin: 0 5px 0 0;
+}
+
+.btn button {
+    cursor: pointer;
+}
